@@ -1,0 +1,174 @@
+.header{
+    width: 1280px;
+    position: fixed;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(185, 208, 219);
+    text-align: center;
+    color: #79c4d8;
+  background-image: url(ok.png);
+ background-size: 100% 100%;
+ overflow-x: hidden; 
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    color: #204175; 
+    font-size: 2em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color:rgb(209, 234, 245);
+}
+
+
+* {
+    box-sizing: border-box; 
+    max-width: 100%; 
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+
+p {
+    font-size: 20px;
+    color: #dee2e9;
+    margin-bottom: 20px;
+    background-color: rgb(94, 147, 169);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgb(152, 189, 241); 
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+    text-align: center;
+    margin: 0 90px;
+}
+
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: rgb(50, 35, 99); 
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: beige;
+    text-align: center;
+}
+
+
+li.dropdown {
+    display: inline-block;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #65ba8b; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #e39ca7; 
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(50, 35, 99); 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f4eaea; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f4eaea; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-image {
+    max-width:30%; 
+    height: auto;
+    border: 2px solid #b1d0e9; 
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.main-image:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+main {
+    flex: 1; /* Konten utama mengisi ruang yang tersisa */
+    overflow: auto; /* Scroll hanya pada bagian konten utama jika terlalu panjang */
+}
+
+footer {
+    background: #f8f8f8; 
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    display: none;
+    height: 0px;
+}
+
+    footer img {
+        max-width: 100%;
+        max-height: 0px; 
+    }
+.column.middle{
+    margin: 170px 0px 35px;
+    width: 80%;
+    margin-top: 0px;
+    background-color: cadetblue;
+}
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+.column.side{
+    margin: 170px 0px 0px;
+    width: 20%;
+    background-color: rgb(139, 178, 178);
+    margin-top: 0px;
+}
+h2{
+    color: beige;
+}
